@@ -1,0 +1,40 @@
+/* Styling the main page background */
+body { 
+    background: linear-gradient(135deg, #74abe2 0%, #5563b1 100%); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* The "Main" content container */
+.main-page {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* A simple entrance animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    color: #2d3436;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #636e72;
+    line-height: 1.6;
+}

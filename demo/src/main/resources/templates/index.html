@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="main-page">
+        <h1>Java App Home</h1>
+        <p>A secure, MySQL-powered application.</p>
+        <div style="margin-top:20px;">
+            <a th:href="@{/login}"><button>Login</button></a>
+            <a th:href="@{/register}"><button style="background:#28a745">Register</button></a>
+        </div>
+    </div>
+</body>
+</html>
